@@ -1,0 +1,68 @@
+body{
+	background: #333;
+	font-family: arial, sans-serif;
+}
+
+h1{
+	color: white;
+	text-align: center;
+	font-weight: normal;
+}
+
+.formulaire{
+	background: snow;
+	width: 480px;
+	margin: 50px auto 0;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.nom, .commentaire{
+	width: 455px;
+	margin: 5px;
+	padding: 8px;
+}
+
+.submit{
+	cursor: pointer;
+	width: 350px;
+	display: block;
+	margin: 0 auto;
+	padding: 8px;
+	border-radius: 3px;
+	border: 1px solid black;
+}
+	.submit:hover{
+		background: lightblue;
+	}
+
+.content {
+	background: snow;
+	width: 480px;
+	height: 350px;
+	margin: 5px auto;
+	padding: 5px;
+	border-radius: 5px;
+
+}
+
+.error {
+	background: tomato;
+	text-align: center;
+	width: 480px;
+	margin: 0 auto;
+	padding: 5px;
+	color: white;
+	border-radius: 3px;
+}
+
+.success {
+	background: green;
+	text-align: center;
+	width: 480px;
+	margin: 0 auto;
+	padding: 5px;
+	color: white;
+	border-radius: 3px;
+}
+
